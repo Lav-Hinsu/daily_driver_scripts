@@ -1,0 +1,10 @@
+#!/bin/bash
+FOLD= "$HOME/react-js/$1"
+
+if [[ -f $FOLD ]]; then
+	echo "Folder already exists"
+else
+	npx create-react-app $1
+	npm install --save react-router-dom react-router @material-ui/core
+
+fi

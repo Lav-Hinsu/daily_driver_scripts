@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/lav/evelauncher
+sh ./evelauncher.sh

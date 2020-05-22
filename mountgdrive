@@ -1,0 +1,3 @@
+#!/bin/bash
+nohup rclone mount myGDrive: ~/drive/ >> /dev/null &
+
