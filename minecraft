@@ -1,4 +1,0 @@
-#!/bin/bash
-cd Minecraft 
-cd TLauncher-2.68
-java -jar TLauncher-2.68.jar
